@@ -6,8 +6,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-url = 
-df = pd.read_csv(#r'C:\Users\....') #can be replaced with personal file
+url = 'https://raw.githubusercontent.com/ablair00/FinalProject/main/data/5937P.csv'
+df = pd.read_csv(url)
 
 kcluster_df = df[['danceability','energy','key','loudness', 'mode','speechiness','instrumentalness','liveness','valence','tempo','duration_ms','time_signature']] #these columns should match names of your columns
 

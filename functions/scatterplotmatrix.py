@@ -3,7 +3,8 @@ import plotnine
 from plotnine import *
 import pandas as pd
 
-df = pd.read_csv(#r'C:\Users\....) #add locations of data
+url = 'https://raw.githubusercontent.com/ablair00/FinalProject/main/data/5937P.csv'
+df = pd.read_csv(url)
 
 perfectsong_attributes = ['Danceability','Energy','Key','Loudness','Mode','Speechiness','Instrumentalness','Liveness','Valence','Tempo','Duration','Time_Signature']
 perfectsong = pd.DataFrame(columns = perfectsong_attributes)
