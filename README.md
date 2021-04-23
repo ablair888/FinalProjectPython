@@ -12,5 +12,7 @@ PNG files that show what will be produced with a proper running of the scripts.
 
 # references
 The following are example projects used to craft this one:
-https://medium.com/analytics-vidhya/analyzing-spotify-dataset-with-python-6ba9cb82a486
-https://towardsdatascience.com/analysis-of-top-50-spotify-songs-using-python-5a278dee980c
+
+	https://medium.com/analytics-vidhya/analyzing-spotify-dataset-with-python-6ba9cb82a486,
+
+	https://towardsdatascience.com/analysis-of-top-50-spotify-songs-using-python-5a278dee980c
