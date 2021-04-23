@@ -2,7 +2,7 @@
 This is a simple data visualization project that used my Top Songs of 2020 retrived from Spotify's API. That data was then used to make a scatter plot and kmeans cluster to see correlations in the data
 
 # functions
-This folder contains three functions. The audioanalysis.py file uses the Spotify API to retrive the data of one (1) playlist and stores it in a .csv file. This .csv file will have 50 entries but if you would like to capture more data, you can use loops.
+This folder contains three functions. The audioanalysis.py file uses the Spotify API to retrive the data of one (1) playlist and stores it in a .csv file. This .csv file will have 100 entries but if you would like to capture more data, you can use loops.
 
 # data
 This is the .csv file created from running the audioanalysis.py. You can link to it by saving the url as a variable and using df.read_csv(url). You can also run the audioanalysis script with your own code and then save your own .csv. 
